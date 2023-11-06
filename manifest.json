@@ -1,7 +1,7 @@
 {
-  "name": "Old Reddit Redirect",
-  "description": "Ensure Reddit always loads the old design",
-  "version": "1.8.0",
+  "name": "Old New Reddit Redirect",
+  "description": "Ensure Reddit always loads the old-new design",
+  "version": "1.8.0.1",
   "manifest_version": 2,
   "background": {
     "scripts": [
@@ -15,7 +15,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://old.reddit.com/*"
+        "*://new.reddit.com/*"
       ],
       "css": [
         "styles.css"

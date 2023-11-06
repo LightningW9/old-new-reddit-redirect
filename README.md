@@ -1,17 +1,10 @@
-# Old Reddit Redirect
+# Old-New Reddit Redirect
 
-[Chrome extension](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
+This addon is for users that are forced to beta test reddits "new-new" design that ignores settings etc. It will redirect links to the "old-new" design (new.reddit.com).
 
-[Firefox extension](https://addons.mozilla.org/firefox/addon/old-reddit-redirect)
+The code is forked from Tom Watson's "Old Reddit Redirect".
 
-Dislike Reddit's redesign? Old Reddit Redirect will ensure that you always load the old (old.reddit.com) design instead.
-
-Will force all reddit.com usage to old.reddit.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
-
-Also has a new minor fixes and quality of life improvements like:
-
-- Removing the undismissable cookie banner
-- Rewriting links to galleries to the raw old reddit comments page
+Tested with Firefox. It should also work with Chrome however I am not planning to test or publish this.
 
 #### Redirected domains
 
@@ -23,15 +16,17 @@ Also has a new minor fixes and quality of life improvements like:
 
 #### Whitelisted domains
 
-- `new.reddit.com`
+- `old.reddit.com`
 - `sh.reddit.com`
 
 ## Development
 
-Ensure you have [`node`](https://nodejs.org/en) installed. Then run `make run` to start the live-reloading development server. This will open a browser window with the extension installed for testing.
+In Firefox, head to `about:debugging#/runtime/this-firefox`
 
-Once you've verified things are working correctly locally you can fork this repo and submit a pull request with your changes.
+Load temporary add-on and select `manifest.json`
+
+Where possible, I will aim to keep this in sync with the source code until it is no longer needed.
 
 ## License
 
-Code copyright Tom Watson. Code released under [the MIT license](LICENSE.txt).
+Code released under [the MIT license](LICENSE.txt).
