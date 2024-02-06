@@ -6,6 +6,10 @@ The code is forked from Tom Watson's "Old Reddit Redirect".
 
 Tested with Firefox. It should also work with Chrome however I am not planning to test or publish this.
 
+This can be installed from the Firefox add-ons site.
+
+[Firefox Add-on](https://addons.mozilla.org/en-GB/firefox/addon/old-new-reddit-redirect/)
+
 #### Redirected domains
 
 - `reddit.com`
