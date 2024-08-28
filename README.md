@@ -1,3 +1,8 @@
+# Obsolete August 2024
+
+Please note this addon no longer works due to reddit removing the option to force the older layout with new.reddit.com
+https://www.reddit.com/r/help/comments/1ehmgmr/next_steps_for_newredditcom/
+
 # Old-New Reddit Redirect
 
 This addon is for users that are forced to beta test reddits "new-new" design that ignores settings etc. It will redirect links to the "old-new" design (new.reddit.com).
